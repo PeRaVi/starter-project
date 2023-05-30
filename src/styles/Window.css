@@ -43,19 +43,7 @@
     border-radius: 50%;
     background-color: #555;
   }
-  
-  .window-control:nth-child(1) {
-    background-color: #FF5F57; /* Rojo */
-  }
-  
-  .window-control:nth-child(2) {
-    background-color: #FFBD2E; /* Amarillo */
-  }
-  
-  .window-control:nth-child(3) {
-    background-color: #28CA42; /* Verde */
-  }
-  
+
   /* Estilos para el contenido de la ventana */
   .window-content {
     padding: 16px;
