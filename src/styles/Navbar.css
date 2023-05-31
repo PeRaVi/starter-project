@@ -19,26 +19,6 @@
     padding: 0;
     margin: 0;
   }
-  .menu-item {
-    list-style: none;
-    display: flex;
-    padding: 0 12px;
-    margin: 0;
-    color: #000;
-    cursor: pointer;
-    transition: background-color 0.2s;
-  }
-  .menu-text{
-    font-family: 'Helvetica', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 22px;
-  }
-  .menu-icon{
-    height: 16px;
-    padding: 0 6px;
-    margin-top: 2px;
-  }
 
   .menu-item:hover {
     background-color: #d2d2d2;
