@@ -1,17 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 import Window from './components/Window';
 import Navbar from './components/Navbar';
+import Dock from './components/Dock';
 
 function App() {
+  const containerStyle = {
+    backgroundImage: `url(${process.env.PUBLIC_URL}/background.jpg)`,
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
+  };
   return (
-    <div>
+    <div className="App"  style={containerStyle}>
     <Navbar />
-      <div className="App">
-        <header className="App-header">
-        <Window />
-        </header>
-      </div>
+    <Dock />
+    <Window />
     </div>
   );
 }
