@@ -1,0 +1,47 @@
+.dock {
+  position: fixed;
+  bottom: 20px;
+  left: 500px;
+  right: 500px;
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.dock-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dock-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.dock-item:hover {
+  transform: scale(1.1);
+}
+
+.dock-icon {
+  width: 64px;
+  height: 64px;
+}
+
+/* .dock-label {
+  font-size: 12px;
+  margin-top: 4px;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+} */
