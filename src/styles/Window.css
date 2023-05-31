@@ -1,13 +1,16 @@
 /* Estilos para la ventana */
 .window {
     width: 1200px;
-    min-height: 720px;
+    height: 720px;
     background-color: #111;
     border: 1px solid #555;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     overflow: hidden;
+    /* Fuchicar un poco y colocar mejor */
     position: relative;
+    margin-top: 30px; 
+    margin-left: 40px;
   }
   
   /* Estilos para la barra superior de la ventana */
