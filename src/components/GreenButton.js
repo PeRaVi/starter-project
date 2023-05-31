@@ -12,8 +12,11 @@ const GreenButton = () => {
       } else {
         windowElement.style.width = '1200px';
         windowElement.style.height = '720px';
-        setIsFullscreen(true)
+        setIsFullscreen(false)
       }
+      // reseteamos posiciones, tanto para ajustar a pantalla como para reducirla, e impedir que la ventana quede fuera
+      windowElement.style.top = '0';
+      windowElement.style.left = '0';
     }
   };
   return (
