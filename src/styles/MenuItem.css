@@ -1,0 +1,33 @@
+.menu-item {
+    list-style: none;
+    display: flex;
+    padding: 0 12px;
+    margin: 0;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+  }
+  .menu-text{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 22px;
+  }
+  .menu-icon{
+    height: 16px;
+    padding: 0 6px;
+    margin-top: 2px;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: block;
+    background-color: #f6f6f6;
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+  }
+
